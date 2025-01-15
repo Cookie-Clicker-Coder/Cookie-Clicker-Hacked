@@ -2017,8 +2017,8 @@ Game.Launch=function()
 			return result;
 		}
 		
-		Game.cookiesEarned=10;//all cookies earned during gameplay
-		Game.cookies=13200000000000000000000000000000000000000000000000000000000000000000000;//cookies
+		Game.cookiesEarned=100000;//all cookies earned during gameplay
+		Game.cookies=9990000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;//cookies
 		Game.cookiesd=0;//cookies display
 		Game.cookiesPs=20000;//cookies per second (to recalculate with every new purchase)
 		Game.cookiesPsRaw=0;//raw cookies per second
