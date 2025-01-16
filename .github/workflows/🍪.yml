@@ -47,14 +47,11 @@ jobs:
           echo "user prompt password required."
           echo "🍪cookie user = admin🍪"
           echo "Loading .web packages... loading... please wait..."
-          for i in {1..10}; do
-            sleep 1
-            percent=$((i * 10))
-            echo "Loading... $percent% complete"
-          echo "Installation complete. Continuing with URL... Done, 100%"
-          echo "Installation complete. Continuing with URL... Done, 100%"
-          echo "⚠ WARNING: Cookies are not yet supported on 🍪COOKIE OS SYSTEMS, inc. Please refer to section A,12 to see more information."
-          echo "..."
+            sleep 5
+            echo "Installation complete. Continuing with URL... Done, 100%"
+            echo "Installation complete. Continuing with URL... Done, 100%"
+            echo "⚠ WARNING: Cookies are not yet supported on 🍪COOKIE OS SYSTEMS, inc. Please refer to section A,12 to see more information."
+            echo "..."
             sleep 1
             echo "🍪COOKIE OS SYSTEMS, inc. Will be using UBUNTU, inc. software. instead of standard planed usage. press [y] to continue or press [n] to cancel. NOTE: AUTO MODE: ON"
             echo "Done. 100%. Loading os...completed. alternative code is: d2398ry2hdfguh9w8eyfp7t238f9pyr7b36t4xr88913oiruj1x8nf7o3u9fqhony8gftx7rfynxiurfyiuqerfnysmowhdiznggwfn9vt8yhzo3w."
