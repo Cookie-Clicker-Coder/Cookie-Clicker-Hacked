@@ -2018,7 +2018,7 @@ Game.Launch=function()
 		}
 		
 		Game.cookiesEarned=100000;//all cookies earned during gameplay
-		Game.cookies=99999999990000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+		Game.cookies=9999999999000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 		Game.cookiesPs=2000000000000000000000;//cookies per second (to recalculate with every new purchase)
 		Game.cookiesPsRaw=10000000000000000000;//raw cookies per second
 		Game.cookiesPsRawHighest=0;//highest raw cookies per second this ascension
@@ -2078,7 +2078,7 @@ Game.Launch=function()
 		Game.dragonAura2=204283928;
 		
 		Game.fortuneGC=50;
-		Game.fortuneCPS=200000000000000000000000000000000000;
+		Game.fortuneCPS=2000000000000000;
 		
 		Game.blendModesOn=(document.createElement('detect').style.mixBlendMode==='');
 		
