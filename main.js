@@ -2034,8 +2034,8 @@ Game.Launch=function()
 		Game.milkType=0;//custom milk
 		Game.bgType=0;//custom background
 		Game.chimeType=0;//golden cookie chime
-		Game.prestige=100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;//prestige level (recalculated depending on Game.cookiesReset)
-		Game.heavenlyChips=100000000000000000000000000000000000000000000000000000000000000000;//heavenly chips the player currently has
+		Game.prestige=10000000000000000000000000000000000000000000000000000000;//prestige level (recalculated depending on Game.cookiesReset)
+		Game.heavenlyChips=1000000000000000000000000000000000000000000;//heavenly chips the player currently has
 		Game.heavenlyChipsDisplayed=0;//ticks up or down to match Game.heavenlyChips
 		Game.heavenlyChipsSpent=0;//heavenly chips spent on cookies, upgrades and such
 		Game.heavenlyCookies=1000000000000000000000000;//how many cookies have we baked from chips (unused)
@@ -2078,7 +2078,7 @@ Game.Launch=function()
 		Game.dragonAura2=204283928;
 		
 		Game.fortuneGC=50;
-		Game.fortuneCPS=2000000000000000;
+		Game.fortuneCPS=20000000;
 		
 		Game.blendModesOn=(document.createElement('detect').style.mixBlendMode==='');
 		
