@@ -2034,7 +2034,7 @@ Game.Launch=function()
 		Game.milkType=0;//custom milk
 		Game.bgType=0;//custom background
 		Game.chimeType=0;//golden cookie chime
-		Game.prestige=1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;//prestige level (recalculated depending on Game.cookiesReset)
+		Game.prestige=100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;//prestige level (recalculated depending on Game.cookiesReset)
 		Game.heavenlyChips=100000000000000000000000000000000000000000000000000000000000000000;//heavenly chips the player currently has
 		Game.heavenlyChipsDisplayed=0;//ticks up or down to match Game.heavenlyChips
 		Game.heavenlyChipsSpent=0;//heavenly chips spent on cookies, upgrades and such
@@ -2069,16 +2069,16 @@ Game.Launch=function()
 		Game.cookiesSucked=0;//cookies sucked by wrinklers
 		Game.cpsSucked=0;//percent of CpS being sucked by wrinklers
 		Game.wrinklersPopped=0;
-		Game.santaLevel=0;
-		Game.reindeerClicked=0;
+		Game.santaLevel=10;
+		Game.reindeerClicked=111223430;
 		Game.seasonT=0;
 		Game.seasonUses=0;
-		Game.dragonLevel=0;
-		Game.dragonAura=20;
-		Game.dragonAura2=0;
+		Game.dragonLevel=1034;
+		Game.dragonAura=2000000000000000;
+		Game.dragonAura2=204283928;
 		
 		Game.fortuneGC=50;
-		Game.fortuneCPS=20;
+		Game.fortuneCPS=200000000000000000000000000000000000;
 		
 		Game.blendModesOn=(document.createElement('detect').style.mixBlendMode==='');
 		
